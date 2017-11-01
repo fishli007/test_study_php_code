@@ -3,11 +3,10 @@
 
 
   $data = array(
-  	            // 'url' => 'http://www.bellalike.com/admin/index.php?route=api/producterp/productstopsale',
-  	            'spu' => 'SKU408995',
-  	            'to_status' => '5',
-  	            'option_user' => 'lifeifei',
-                'token'=>''
+  	            'spu' => 'SKU408995',  //要下架产品的spu
+  	            'to_status' => '5',    //需要将产品状态改变的目标状态
+  	            'option_user' => 'lifeifei',  //操作人
+                'token'=>''  //token
             );
 
   //按约定算法生成token
